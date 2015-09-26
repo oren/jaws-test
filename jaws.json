@@ -1,0 +1,20 @@
+{
+  "name": "test",
+  "version": "0.0.1",
+  "location": "https://github.com/...",
+  "author": "",
+  "description": "",
+  "stages": {
+    "dev": [
+      {
+        "region": "us-west-2",
+        "iamRoleArnLambda": "arn:aws:iam::398968062200:role/dev-test-r-IamRoleLambda-WP0YG2VGHJ2F",
+        "iamRoleArnApiGateway": "arn:aws:iam::398968062200:role/dev-test-r-IamRoleApiGateway-13I6LMOA58ZDB",
+        "restApiId": "r5bh8mewz5"
+      }
+    ]
+  },
+  "jawsBuckets": {
+    "us-west-2": "jaws.testing.com"
+  }
+}
